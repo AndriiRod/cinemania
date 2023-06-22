@@ -1,0 +1,39 @@
+{
+  "name": "parcel-project-template",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Svitlana-Lazurenko.github.io/wireless-warriors",
+  "scripts": {
+    "start": "parcel src/*.html -p 1908",
+    "build": "parcel build src/*.html --public-url /wireless-warriors/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lazysizes": "^5.3.2",
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "spin.js": "^4.1.1",
+    "swiper": "^9.2.4",
+    "tui-pagination": "^3.4.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "axios-mock-adapter": "^1.21.4",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
