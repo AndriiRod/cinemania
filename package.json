@@ -1,10 +1,10 @@
 {
-  "name": "parcel-project-template",
+  "name": "cinemania",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Svitlana-Lazurenko.github.io/wireless-warriors",
+  "homepage": "https://AndriiRod.github.io/cinemania",
   "scripts": {
-    "start": "parcel src/*.html -p 1908",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /wireless-warriors/"
   },
   "repository": {
