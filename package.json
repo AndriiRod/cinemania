@@ -5,7 +5,7 @@
   "homepage": "https://AndriiRod.github.io/cinemania",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /wireless-warriors/"
+    "build": "parcel build src/*.html --public-url /cinemania/"
   },
   "repository": {
     "type": "git",
